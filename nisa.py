@@ -8,7 +8,7 @@ st.title("💰 友達のための新NISAまるわかりアプリ")
 
 st.markdown("""
 ## そもそもNISAって何？
-通常、投資の利益には約20%の税金がかかりますが、NISAを使えば**利益がすべて非課税（ゼロ）**になる国のお得なボーナス制度です！
+通常、投資の利益には約20%の税金がかかりますが、NISAを使えば利益がすべて非課税（ゼロ）になる国のお得なボーナス制度です！
 """)
 
 st.header("📈 NISAの威力がわかる！積立シミュレーション")
@@ -56,7 +56,7 @@ profit = final_total - final_principal
 tax_saved = profit * 0.20315
 
 # 見やすいように枠をつけて結果を表示
-st.success(f"🎉 {years}年後の資産額：約 **{int(final_total):,}** 円")
+st.success(f"🎉 {years}年後の資産額：約 {int(final_total):,} 円")
 st.info(f"💡 NISAなら、本来引かれるはずの税金 約 **{int(tax_saved):,}** 円がタダになります！")
 
 st.markdown("---")
