@@ -4,7 +4,7 @@ import pandas as pd
 # ページの設定
 st.set_page_config(page_title="NISAシミュレーター", layout="centered")
 
-st.title("💰 友達のための新NISAまるわかりアプリ")
+st.title("りょうせいのための新NISAまるわかりアプリ at寅福🍚")
 
 st.markdown("""
 ## そもそもNISAって何？
